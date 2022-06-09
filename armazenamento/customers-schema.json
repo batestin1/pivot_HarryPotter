@@ -1,0 +1,31 @@
+{
+    "schemaName": "harry_potter_json",
+    "dimensionFieldSpecs": [
+      {
+        "name": "id",
+        "dataType": "INT"
+      },
+      {
+        "name": "name",
+        "dataType": "STRING"
+      },
+      {
+        "name": "gender",
+        "dataType": "STRING"
+      },
+      {
+        "name": "adress",
+        "dataType": "STRING"
+      },
+      {
+        "name": "houses",
+        "dataType": "STRING"
+      }
+    ],
+    "dateTimeFieldSpecs": [{
+      "name": "dt_update",
+      "dataType": "LONG",
+      "format" : "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    }]
+  }
